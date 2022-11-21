@@ -1,0 +1,36 @@
+---
+import MenuItem from "./MenuItem.astro";
+
+export interface Props {}
+
+const {} = Astro.props as Props;
+---
+
+<div class="top-menu dark:bg-gray-800 dark:text-white bg-white text-slate-600">
+  <div class="container">
+    <span>br-dev.org</span>
+    <ul class="menu-items gap-3">
+      <MenuItem text="Início" href="/" />
+      <MenuItem text="Enviar notícia" href="/" />
+      <MenuItem text="Sobre" href="/" />
+    </ul>
+  </div>
+</div>
+<style>
+  .top-menu {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .menu-items {
+    display: flex;
+  }
+</style>
