@@ -1,0 +1,37 @@
+---
+---
+
+<button id="dark-mode-button"><i class="fa-regular fa-lightbulb"></i></button>
+
+<script>
+  if (
+    localStorage.theme === "dark" ||
+    (!("theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+
+  function handleClick() {
+    const currentMode = document.documentElement.classList.contains("dark")
+      ? "dark"
+      : "light";
+
+    if (currentMode === "dark") {
+      document.documentElement.classList.remove("dark");
+      localStorage.theme = "light";
+      return;
+    }
+
+    if (currentMode === "light") {
+      document.documentElement.classList.add("dark");
+      localStorage.theme = "dark";
+      return;
+    }
+  }
+  document
+    ?.getElementById("dark-mode-button")
+    ?.addEventListener("click", handleClick);
+</script>

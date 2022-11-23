@@ -1,4 +1,5 @@
 ---
+import DarkModeButton from "./DarkModeButton.astro";
 import MenuItem from "./MenuItem.astro";
 
 export interface Props {}
@@ -9,11 +10,12 @@ const {} = Astro.props as Props;
 <div class="top-menu dark:bg-gray-800 dark:text-white bg-white text-slate-600">
   <div class="container">
     <span>br-dev.org</span>
-    <ul class="menu-items gap-3">
+    <ul class="menu-items gap-3 ml-auto mr-3">
       <MenuItem text="Início" href="/" />
       <MenuItem text="Enviar notícia" href="/" />
       <MenuItem text="Sobre" href="/" />
     </ul>
+    <DarkModeButton />
   </div>
 </div>
 <style>
@@ -26,7 +28,7 @@ const {} = Astro.props as Props;
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 100%;
   }
 
