@@ -20,12 +20,14 @@
       : "light";
 
     if (currentMode === "dark") {
+      console.log('gonna change to dark');
       document.documentElement.classList.remove("dark");
       localStorage.theme = "light";
       return;
     }
 
     if (currentMode === "light") {
+      console.log('gonna change to light');
       document.documentElement.classList.add("dark");
       localStorage.theme = "dark";
       return;
