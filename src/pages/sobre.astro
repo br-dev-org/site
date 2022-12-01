@@ -1,9 +1,87 @@
 ---
+import dayjs from "dayjs";
+import CommitList from "../components/CommitList.astro";
 import Layout from "../layouts/Layout.astro";
+
+// curl \
+//   -H "Accept: application/vnd.github+json" \
+//   -H "Authorization: Bearer <YOUR-TOKEN>" \
+//   https://api.github.com/repos/OWNER/REPO/commits
+
+const commits = await fetch(
+  "https://api.github.com/repos/br-dev-org/site/commits",
+  {
+    method: "GET",
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: "Bearer " + import.meta.env.GITHUB_TOKEN,
+    },
+  }
+).then((response) => response.json());
+
+const commitsByDate = commits
+  .map((commit) => ({
+    ...commit,
+    date: dayjs(commit.commit.author.date).format("YYYY-MM-DD"),
+  }))
+  .reduce((final, commit) => {
+    const date = commit.date;
+
+    if (date in final) {
+      return {
+        ...final,
+        [date]: [...final[date], commit],
+      };
+    }
+
+    return {
+      ...final,
+      [date]: [commit],
+    };
+  }, {});
+
+const commitsByDateAndType = Object.keys(commitsByDate).reduce(
+  (final, date) => {
+    return {
+      ...final,
+      [date]: commitsByDate[date].reduce(
+        (final2, commit) => {
+          if (/^add: /.test(commit.commit.message)) {
+            return {
+              ...final2,
+              additions: [...final2.additions, commit],
+            };
+          }
+
+          if (/^remove: /.test(commit.commit.message)) {
+            return {
+              ...final2,
+              removals: [...final2.removals, commit],
+            };
+          }
+
+          if (/^changes: /.test(commit.commit.message)) {
+            return {
+              ...final2,
+              changes: [...final2.changes, commit],
+            };
+          }
+
+          return {
+            ...final2,
+            other: [...final2.other, commit],
+          };
+        },
+        { additions: [], removals: [], changes: [], other: [] }
+      ),
+    };
+  },
+  {}
+);
 ---
 
 <Layout title="Sobre">
-  <article class="mx-auto w-1/2 mt-10">
+  <article class="mx-auto w-1/2 mt-10 prose lg:prose-xl">
     <h2>Sobre</h2>
 
     <p>
@@ -16,5 +94,58 @@ import Layout from "../layouts/Layout.astro";
       >.
     </p>
     <a class="underline" href="https://github.com/br-dev-org/site">Github</a>
+
+    <h2>Changelog</h2>
+
+    {
+      Object.keys(commitsByDateAndType).map((date) => {
+        const additions = commitsByDateAndType[date].additions;
+        const removals = commitsByDateAndType[date].removals;
+        const changes = commitsByDateAndType[date].changes;
+        const other = commitsByDateAndType[date].other;
+
+        return (
+          <>
+            <h3>{date}</h3>
+
+            {additions.length > 0 && (
+              <>
+                <h4>Adições:</h4>
+                <ul>
+                  <CommitList commits={additions} />
+                </ul>
+              </>
+            )}
+
+            {removals.length > 0 && (
+              <>
+                <h4>Remoções:</h4>
+                <ul>
+                  <CommitList commits={removals} />
+                </ul>
+              </>
+            )}
+
+            {changes.length > 0 && (
+              <>
+                <h4>Mudanças:</h4>
+                <ul>
+                  <CommitList commits={changes} />
+                </ul>
+              </>
+            )}
+
+            {other.length > 0 && (
+              <>
+                <h4>Outros:</h4>
+                <ul>
+                  <CommitList commits={other} />
+                </ul>
+              </>
+            )}
+          </>
+        );
+      })
+    }
   </article>
 </Layout>

@@ -1,0 +1,13 @@
+---
+export interface Props {
+  commits: any;
+}
+
+const { commits } = Astro.props as Props;
+---
+
+{
+  commits.map((commit) => (
+    <li>{commit.commit.message.replace(/^add: |remove: |change: /, "")}</li>
+  ))
+}
