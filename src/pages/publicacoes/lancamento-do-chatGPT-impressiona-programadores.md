@@ -22,6 +22,10 @@ Muitos têm medo se perderão o emprego para as IAs, sobre isso, do ponto de vis
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;no worries, your job is safe&quot; - answered by AI <a href="https://t.co/lU6OEPGLib">pic.twitter.com/lU6OEPGLib</a></p>&mdash; kitze 🚀 (@thekitze) <a href="https://twitter.com/thekitze/status/1598262265999872000?ref_src=twsrc%5Etfw">December 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Veja agora o ChatGPT refatorando um código em PHP + jQuery para Next.js, auth0, e tailwindcss:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">asking ChatGPT to refactor a php + jquery app to next.js with typescript, formik, tailwind, and auth0<br><br>🤯🤯🤯 <a href="https://t.co/mnmnuwT0FX">pic.twitter.com/mnmnuwT0FX</a></p>&mdash; kitzeGPT 🚀 (@thekitze) <a href="https://twitter.com/thekitze/status/1598414259137880066?ref_src=twsrc%5Etfw">December 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Até o Elon Musk comentou sobre este lançamento: 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lot of people stuck in a damn-that’s-crazy ChatGPT loop 🔁</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1598360883474108417?ref_src=twsrc%5Etfw">December 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
