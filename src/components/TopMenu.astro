@@ -12,7 +12,12 @@ const {} = Astro.props as Props;
     <a href="/">br-dev.org</a>
     <ul class="menu-items gap-3 ml-auto mr-3">
       <MenuItem text="Início" href="/" />
-      <MenuItem text="Enviar notícia" href="/" />
+      <MenuItem
+        text="Enviar notícia"
+        href="https://github.com/br-dev-org/site/issues/new"
+        target="_blank"
+        rel="noreferrer"
+      />
       <MenuItem text="Sobre" href="/sobre" />
     </ul>
     <DarkModeButton />
