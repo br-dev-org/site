@@ -60,7 +60,7 @@ const commitsByDateAndType = Object.keys(commitsByDate).reduce(
             };
           }
 
-          if (/^changes: /.test(commit.commit.message)) {
+          if (/^changes*: /.test(commit.commit.message)) {
             return {
               ...final2,
               changes: [...final2.changes, commit],
