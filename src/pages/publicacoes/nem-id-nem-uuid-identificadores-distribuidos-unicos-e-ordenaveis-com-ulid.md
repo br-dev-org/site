@@ -1,7 +1,7 @@
-
 ---
 layout: ../../layouts/PublicationLayout.astro
-title: Nem ID nem UUID: identificadores distribuídos, únicos e ordenáveis com ULID
+title: >
+    Nem ID nem UUID: identificadores distribuídos, únicos e ordenáveis com ULID
 date: 2022-12-22
 author: Pablo Dinella
 description: Enquanto UUIDs são uma boa alternativa aos IDs sequenciais, ULIDs oferecem vantagens mais interessante, unindo o melhor dos dois mundos
