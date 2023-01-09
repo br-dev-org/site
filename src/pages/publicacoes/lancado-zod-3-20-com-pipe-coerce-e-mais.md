@@ -29,7 +29,7 @@ Em outras palavras o código acima está validando se o valor é uma string de n
 
 ### .coerce()
 
-O `.coerce()` é outro utilitário muito converniente, que serve para converter valores de forma muito mais fácil, exemplo: 
+O `.coerce()` é outro utilitário muito conveniente, que serve para converter valores de forma muito mais fácil, exemplo: 
 
 ```typescript
 const schema = z.coerce.string();
