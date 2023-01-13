@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.8",
+    "astro-og-image": "github:PabloDinella/astro-opengraph-image",
+    "astro-seo": "^0.6.1",
     "dayjs": "^1.11.6"
   }
 }

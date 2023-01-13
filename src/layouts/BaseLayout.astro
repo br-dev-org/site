@@ -6,9 +6,10 @@ import "../../public/fontawesome/css/solid.css";
 
 export interface Props {
   title: string;
+  slug: string
 }
 
-const { title } = Astro.props as Props;
+const { title, slug } = Astro.props as Props;
 ---
 
 <!DOCTYPE html>
@@ -18,6 +19,11 @@ const { title } = Astro.props as Props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+
+    <meta property="og:image" content="./opengraph-image.png" />
+    <meta property="twitter:image" content="./opengraph-image.png" />
+
+
     <title>{title + ' (br-dev)'}</title>
 
     <script>
