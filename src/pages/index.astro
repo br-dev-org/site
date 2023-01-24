@@ -11,9 +11,21 @@ type Frontmatter = {
 };
 
 const posts = await Astro.glob<Frontmatter>("../pages/publicacoes/*.md");
-const nonDraftPosts = posts.filter((post) => !post.frontmatter.draft);
+const nonDraftPosts = posts
+  .filter((post) => !post.frontmatter.draft)
+  .sort((postA, postB) => {
+    if (postB.frontmatter.date > postA.frontmatter.date) {
+      return 1;
+    }
 
-console.log(nonDraftPosts[0].url);
+    if (postB.frontmatter.date < postA.frontmatter.date) {
+      return -1;
+    }
+
+    return 0;
+  });
+
+console.log(nonDraftPosts);
 ---
 
 <Layout title="Notícias de Desenvolvimento Web (br-dev)">
