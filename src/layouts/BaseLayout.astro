@@ -21,7 +21,8 @@ const socialImageURL = new URL(Astro.url.href + "opengraph-image.png");
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <meta name="description" content="undefined" />
+    <meta name="description" content={description} />
+    <meta property="og:site_name" content="br-dev.org" />
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content={Astro.url} />
