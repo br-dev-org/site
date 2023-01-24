@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 import Item from "../components/Item.astro";
 
 type Frontmatter = {
@@ -25,7 +24,6 @@ const nonDraftPosts = posts
     return 0;
   });
 
-console.log(nonDraftPosts);
 ---
 
 <Layout title="Notícias de Desenvolvimento Web (br-dev)">
@@ -46,10 +44,6 @@ console.log(nonDraftPosts);
 </Layout>
 
 <style>
-  :root {
-    --astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
-  }
-
   h1 {
     margin: 2rem 0;
   }
