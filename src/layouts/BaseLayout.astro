@@ -10,6 +10,8 @@ export interface Props {
 }
 
 const { title, slug } = Astro.props as Props;
+const socialImageURL = new URL(Astro.url.href + 'opengraph-image.png');
+
 ---
 
 <!DOCTYPE html>
@@ -20,8 +22,8 @@ const { title, slug } = Astro.props as Props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <meta property="og:image" content="./opengraph-image.png" />
-    <meta property="twitter:image" content="./opengraph-image.png" />
+    <meta property="og:image" content={socialImageURL} />
+    <meta property="twitter:image" content={socialImageURL} />
 
 
     <title>{title + ' (br-dev)'}</title>
