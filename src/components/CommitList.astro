@@ -1,9 +1,12 @@
 ---
+import type { Commit } from '../pages/sobre/_lib/commitList';
+
 export interface Props {
-  commits: any;
+  commits: Commit[];
 }
 
 const { commits } = Astro.props as Props;
+
 ---
 
 {
