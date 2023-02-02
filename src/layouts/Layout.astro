@@ -1,5 +1,4 @@
 ---
-import TopMenu from "../components/TopMenu.astro";
 import BaseLayout from "./BaseLayout.astro";
 
 export interface Props {
@@ -9,6 +8,6 @@ export interface Props {
 const { title } = Astro.props as Props;
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} description="">
   <slot />
 </BaseLayout>
