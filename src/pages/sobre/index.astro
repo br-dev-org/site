@@ -1,0 +1,83 @@
+---
+import CommitList from "../../components/CommitList.astro";
+import Layout from "../../layouts/Layout.astro";
+import { getCommitListOrganizedByDateAndType } from "./_lib/commitList";
+
+const commitsByDateAndType = await getCommitListOrganizedByDateAndType()
+---
+
+<Layout title="Sobre">
+  <article class="mx-auto w-1/2 mt-10 prose lg:prose-xl">
+    <h2>Sobre</h2>
+
+    <p>
+      A ideia do br-dev.org é ser um agregador de notícias do mundo de
+      desenvolvimento, inspirado principalmente no br-linux.org, no
+      tabnews.com.br e na frase <a
+        class="underline"
+        href="https://youtube.com/clip/UgkxjWPfGNAmONaPJeoBDWqfQ5cut2CY1lOz"
+        target="_blank">"afinal, só pode ter uma coisa de cada coisa?"</a
+      >.
+    </p>
+    <a class="underline" href="https://github.com/br-dev-org/site">Github</a>
+
+    <h2>Changelog</h2>
+
+    {
+      Object.keys(commitsByDateAndType).map((date) => {
+        const additions = commitsByDateAndType[date].additions;
+        const removals = commitsByDateAndType[date].removals;
+        const changes = commitsByDateAndType[date].changes;
+        const other = commitsByDateAndType[date].other;
+
+        return (
+          <>
+            <h3>{date}</h3>
+
+            {additions.length > 0 && (
+              <>
+                <h4>Adições:</h4>
+                <ul>
+                  <CommitList commits={additions} />
+                </ul>
+              </>
+            )}
+
+            {removals.length > 0 && (
+              <>
+                <h4>Remoções:</h4>
+                <ul>
+                  <CommitList commits={removals} />
+                </ul>
+              </>
+            )}
+
+            {changes.length > 0 && (
+              <>
+                <h4>Mudanças:</h4>
+                <ul>
+                  <CommitList commits={changes} />
+                </ul>
+              </>
+            )}
+
+            {other.length > 0 && (
+              <>
+                <h4>Outros:</h4>
+                <ul>
+                  <CommitList commits={other} />
+                </ul>
+              </>
+            )}
+          </>
+        );
+      })
+    }
+
+    {
+      Object.keys(commitsByDateAndType).length === 0 && (
+        <p>No data</p>
+      )
+    }
+  </article>
+</Layout>
