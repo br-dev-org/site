@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: Cloudflare tem ferramenta de teste de velocidade de internet
 date: 2023-12-09
 author: Pablo Dinella
-description: O speed.cloudflare.com é uma ferramenta gratuita que fornece inforamções precisas e insights sobre a qualidade e velocidade de sua conexão
+description: O speed.cloudflare.com é uma ferramenta gratuita que fornece informações precisas e insights sobre a qualidade e velocidade de sua conexão
 --- 
 
 ## Cloudflare tem ferramenta de teste de velocidade de internet
