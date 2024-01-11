@@ -6,7 +6,7 @@ author: Pablo Dinella
 description: Nova ferramenta de conversação com IA responde dúvidas complexas de desenvolvimento e cria música sobre Redux estilo "bíblico"
 --- 
 
-## Lançamento do ChatGPT impressiona programadores
+# Lançamento do ChatGPT impressiona programadores
 
 Ontem [Sam Altman anunciou o lançamento do ChatGPT](https://twitter.com/sama/status/1598038815599661056), serviço em que você conversa com uma IA (inteligência artificial). Até aí sem muita novidade, afinal [desde 2004 já tínhamos o Robô Ed](https://in.bot/cases/roboed/index.php), que é uma "IA" (obviamente não como as IAs de hoje) que conversa com o usuário e responde perguntas, especialmente sobre sustentabilidade.
 

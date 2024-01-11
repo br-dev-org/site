@@ -6,7 +6,7 @@ author: Pablo Dinella
 description: Bem vindo ao agregador de notícias do mundo dev!
 --- 
 
-## Primeira publicação do br-dev.org
+# Primeira publicação do br-dev.org
 
 Houve uma época em que quase todo dia eu entrava no [br-linux.org](https://br-linux.org/) para saber o que havia de novo no mundo Linux. Recentemente o [Augusto Campos](https://twitter.com/augustocc) pausou a atualização do site.
 

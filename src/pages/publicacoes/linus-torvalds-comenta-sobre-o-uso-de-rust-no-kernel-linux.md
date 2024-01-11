@@ -6,7 +6,7 @@ author: Pablo Dinella
 description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu papel no desenvolvimento.
 --- 
 
-## Linus Torvalds comenta sobre o uso de Rust no Kernel Linux
+# Linus Torvalds comenta sobre o uso de Rust no Kernel Linux
 
 Em um [vídeo recente](https://youtu.be/YyRVOGxRKLg), Linus Torvalds, o criador do Linux, expressou seu entusiasmo em relação à integração contínua da linguagem de programação Rust no kernel do Linux. Torvalds, que está trabalhando no kernel há 32 anos, destacou a importância de evitar a estagnação e adotar novas tecnologias para manter o processo de desenvolvimento dinâmico.
 

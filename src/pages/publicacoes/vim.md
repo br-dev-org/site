@@ -6,7 +6,7 @@ author: Pablo Dinella
 description: O curso "./missing-semester" do MIT ensina ferramentas essenciais para qualquer programador
 --- 
 
-## O MIT ensina VIM em curso complementar
+# O MIT ensina VIM em curso complementar
 
 O usuário [@ericvna](https://twitter.com/ericvna/) no Twitter, [postou sobre uma aula de VIM](https://twitter.com/ericvna/status/1726223805453090852) estar presente na grade de [um curso do MIT](https://missing.csail.mit.edu/), destacando o ganho de produtividade em aprender a editar código no bom e velho editor.
 
