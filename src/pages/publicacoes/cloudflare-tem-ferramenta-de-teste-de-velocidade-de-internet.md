@@ -6,7 +6,7 @@ author: Pablo Dinella
 description: O speed.cloudflare.com é uma ferramenta gratuita que fornece informações precisas e insights sobre a qualidade e velocidade de sua conexão
 --- 
 
-## Cloudflare tem ferramenta de teste de velocidade de internet
+# Cloudflare tem ferramenta de teste de velocidade de internet
 
 É comum acessarmos o [fast.com](https://fast.com/) ou o [https://www.brasilbandalarga.com.br/](https://www.brasilbandalarga.com.br/) para verificarmos a velocidade e qualidade de nossa conexão, quando nossa call de daily ou partida de CS apresenta problemas.
 

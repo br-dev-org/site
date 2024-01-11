@@ -7,13 +7,13 @@ description: Nova versao do Zod traz diversas novidades e melhorias de qualidade
 --- 
 
 
-## Lançada versão 3.20 do Zod, com .pipe(), .coerce() e mais
+# Lançada versão 3.20 do Zod, com .pipe(), .coerce() e mais
 
 No dia 12 de dezembro de 2022 foi lançada a nova versão do [Zod](https://zod.dev/), a [3.20](https://github.com/colinhacks/zod/releases/tag/v3.20). Zod é uma lib de parsing e validação de dados para Typescript. Sua principal característica é ser Typescript-first, o que faz com que ela tenha uma ótima integração e compatibilidade com o TS, além de seguir a filosofia de ["parse, don't validate"](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/), o que faz com que o aproveitamento do sitema de tipos do TS ser ainda maior. Há um [vídeo no meu canal](https://youtu.be/RCXa_Ofus1Q) com uma introdução ao Zod caso queira ver como funciona na prática.
 
 Não há "breaking changes" nesta versão, exceto pelo fato de que agora só é suportado o TypeScript 4.5 para cima. Mas o que chama a atenção mesmo são as novas features:
 
-### .pipe()
+## .pipe()
 
 Agora temos um novo método `.pipe()`, que serve para "encadear" schemas. Tipicamente será usado com `.transform()`:
 
@@ -27,7 +27,7 @@ Neste caso, primeiro o schema validará se o valor é uma string, depois transfo
 
 Em outras palavras o código acima está validando se o valor é uma string de no mínimo 5 caracteres. Obviamente há outras formas de se validar isso, mas o `.pipe()` habilitará schemas mais complexos, sem necessidade de um código com uso de  `.refine()` por exemplo.
 
-### .coerce()
+## .coerce()
 
 O `.coerce()` é outro utilitário muito conveniente, que serve para converter valores de forma muito mais fácil, exemplo: 
 
@@ -40,7 +40,7 @@ schema.parse(true); // => "true"
 
 Todos os tipos primitivos são suportados: string, number, boolean, bigint, date.
 
-### .catch()
+## .catch()
 
 Agora temos uma forma de "fallback", caso uma validação falhe. Exemplo: 
 
@@ -53,7 +53,7 @@ schema.parse(4); // => "name"
 
 Perceba que `4` não é uma string válida, mas o schema não lançou um erro, no lugar disso, retornou o valor definido como fallback, "name".
 
-### .datetime()
+## .datetime()
 
 Agora é possível validar strings que contenham datas, exemplo: 
 
@@ -66,7 +66,7 @@ dt.parse("2020-01-01T00:00:00.123456Z");
 
 Este método só funciona com datas dentro de strings, e que sejam UTC, ou seja, que terminam com `Z`, sem definição de timezone.
 
-### Conclusão
+## Conclusão
 
 Outras mudanças incluem suporte ao símbolos (`Symbol`), de acordo com as notas de release, uma feature muito aguardada (e que foi [implementada por um brasileiro](https://github.com/santosmarco-caribou)!), restrição para valores finitos, entre outros. Leia as [notas de release completa aqui](https://github.com/colinhacks/zod/releases/tag/v3.20).
 

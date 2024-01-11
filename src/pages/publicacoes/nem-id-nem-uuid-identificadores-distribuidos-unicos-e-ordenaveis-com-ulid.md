@@ -8,7 +8,7 @@ description: Enquanto UUIDs são uma boa alternativa aos IDs sequenciais, ULIDs 
 --- 
 
 
-## Nem ID nem UUID: identificadores distribuídos, únicos e ordenáveis com ULID 
+# Nem ID nem UUID: identificadores distribuídos, únicos e ordenáveis com ULID 
 
 Se você trabalha com desenvolvimento web provavelmente já deve saber que IDs sequenciais não são muito recomendados por alguns motivos. O UUIDv4 é uma alternativa bastante utilizada para gerar identificadores únicos aleatórios, porém não passa muito disso.
 
