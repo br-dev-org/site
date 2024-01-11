@@ -16,7 +16,6 @@ const { href, title, date, body } = Astro.props as Props;
   <a href={href}>
     <h2>
       {title}
-      <span>&rarr;</span>
     </h2>
     <span class="opacity-50"
       >{dayjs(date).locale("pt-br").format("D [de] MMMM [de] YYYY")}</span
