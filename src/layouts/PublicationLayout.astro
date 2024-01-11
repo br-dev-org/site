@@ -7,5 +7,23 @@ const { frontmatter } = Astro.props;
 <BaseLayout title={frontmatter.title} description={frontmatter.description}>
   <div class="container mx-auto mt-9 prose lg:prose-xl px-5">
     <slot />
+
+    <script
+      src="https://giscus.app/client.js"
+      data-repo="br-dev-org/site"
+      data-repo-id="R_kgDOH4l7Uw"
+      data-category="Post Discussions"
+      data-category-id="DIC_kwDOH4l7U84CbNHp"
+      data-mapping="title"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="top"
+      data-theme="preferred_color_scheme"
+      data-lang="en"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async
+    ></script>
   </div>
 </BaseLayout>
