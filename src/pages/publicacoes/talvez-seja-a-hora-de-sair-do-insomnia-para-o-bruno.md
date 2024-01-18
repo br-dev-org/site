@@ -13,6 +13,8 @@ As ferramentas crescem, mudam de mãos, e às vezes se tornam mais burocratizada
 Parece que agora é a vez do [Bruno](https://www.usebruno.com/), ferramenta open source bem parecida com as versões iniciais do Insomnia. Entre características destacadas está o fato de guardar as coleções numa **pasta local**, funcionar apenas **offline** (sem planos de sincronização em nuvem em favor da privacidade), e usar um formato simples chamado **Bru**, para definir as requisições.
 
 Se você já utiliza o Bruno, comente abaixo o que acha da experiência :)
+
+*Ideia do post depois de ver um vídeo da Rocketseat: [https://youtu.be/k5ARGZzlI6M](https://youtu.be/k5ARGZzlI6M)*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk0NDQxMCwxNzQ1OTQ3NzYyXX0=
+eyJoaXN0b3J5IjpbLTE0Mzg0MDU4MjEsMTc0NTk0Nzc2Ml19
 -->
