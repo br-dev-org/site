@@ -8,9 +8,9 @@ description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu pa
 
 # Talvez seja a hora de sair do Insomnia para o... Bruno
 
-As ferramentas crescem, mudam de mãos, e às vezes se tornam mais burocratizadas. Aconteceu com o Postman, e agora parece estar acontecendo com o Insomnia. Ambas são aplicações destinadas a facilitar a interação com APIs, e são aquele tipo de software que a gente não larga mais desde a primeira vez que testamos. Até o momento que crescem demais em termos de recursos, e chegam até a exigir login para poder usá-las.
+As ferramentas crescem, mudam de mãos, e às vezes se tornam mais burocratizadas. Aconteceu com o [Postman](https://www.postman.com/), e agora parece estar acontecendo com o Insomnia. Ambas são aplicações destinadas a facilitar a interação com APIs, e são aquele tipo de software que a gente não larga mais desde a primeira vez que testamos. Até o momento que crescem demais em termos de recursos, e chegam até a exigir login para poder usá-las.
 
-
+Parece que agora é a vez do [Bruno](https://www.usebruno.com/), ferramenta open source bem parecida com as versões iniciais do Insomnia.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUzNzU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTIwMjExNTMzMCwtMjA3NTM3NTYyNV19
 -->
