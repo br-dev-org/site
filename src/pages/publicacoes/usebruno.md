@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: Talvez seja a hora de sair do Insomnia para o... Bruno
 date: 2024-01-18
 author: Pablo Dinella
-description: Com a burocratização do Po
+description: O ciclo se repete mais uma vez, e com a burocratização do Insomnia surge uma nova opção: Bruno
 --- 
 
 # Talvez seja a hora de sair do Insomnia para o... Bruno
@@ -14,5 +14,5 @@ Parece que agora é a vez do [Bruno](https://www.usebruno.com/), ferramenta open
 
 Se você já utiliza o Bruno, comente abaixo o que acha da experiência :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5NDY0NDk3LC0yMDc1Mzc1NjI1XX0=
+eyJoaXN0b3J5IjpbMTc0NTk0Nzc2MiwtMjA3NTM3NTYyNV19
 -->
