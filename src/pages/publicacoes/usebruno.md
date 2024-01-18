@@ -8,9 +8,9 @@ description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu pa
 
 # Talvez seja a hora de sair do Insomnia para o... Bruno
 
-
+As ferramentas crescem, mudam de mãos, e às vezes se tornam mais burocratizadas. Aconteceu com o Postman, e agora parece estar acontecendo com o Insomnia. Ambas Começaram como pequenas ferramentas, daquelas que a gente 
 
 _Conteúdo redigido pelo ChatGPT, editado por [@pablordinella](https://twitter.com/pablordinella)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MDMxODIzXX0=
+eyJoaXN0b3J5IjpbMTc3OTY3OTEwM119
 -->
