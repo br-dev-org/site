@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/PublicationLayout.astro
-title: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux
-date: 2024-01-10
+title: Talvez seja a hora de sair do Insomnia para o... Bruno
+date: 2024-01-18
 author: Pablo Dinella
-description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu papel no desenvolvimento.
+description: Com a burocratização do Po
 --- 
 
 # Talvez seja a hora de sair do Insomnia para o... Bruno
@@ -12,7 +12,7 @@ As ferramentas crescem, mudam de mãos, e às vezes se tornam mais burocratizada
 
 Parece que agora é a vez do [Bruno](https://www.usebruno.com/), ferramenta open source bem parecida com as versões iniciais do Insomnia. Entre características destacadas está o fato de guardar as coleções numa **pasta local**, funcionar apenas **offline** (sem planos de sincronização em nuvem em favor da privacidade), e usar um formato simples chamado **Bru**, para definir as requisições.
 
-Se
+Se você já utiliza o Bruno, comente abaixo o que acha da experiência :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNzA2MTU5LC0yMDc1Mzc1NjI1XX0=
+eyJoaXN0b3J5IjpbODU5NDY0NDk3LC0yMDc1Mzc1NjI1XX0=
 -->
