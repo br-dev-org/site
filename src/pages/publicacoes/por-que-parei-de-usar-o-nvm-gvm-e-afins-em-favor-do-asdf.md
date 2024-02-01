@@ -10,7 +10,7 @@ description: "O asdf substitui o nvm, gvm, rsvm, rvm e outros, com uma UX muito 
 
 Lembro que quando o Ruby e Node ficaram muito populares há alguns anos, logo começou a surgir um problema que era o gerenciamento de versões diferentes do ruby e node. Rapidamente também a comunidade desenvolveu diferentes técnicas para lidar com isso, e uma das que ficou mais popular até hoje são as ferramentas `ruby version manager` ([rvm](https://rvm.io/)) e `node version manager` ([nvm](https://github.com/nvm-sh/nvm)), no caso do ruby e node, respectivamente. 
 
-Hoje em dias também temos gerenciadores de versão para Rust, Golang, Python, e tantas outras linguagens. O problema é que nem todas elas se comportam da mesma maneira, e inclusive com shells diferentes, como o [fish](https://fishshell.com/), é necessário usar wrappers de terceiros para que tudo funcione bem.
+Hoje em dia também temos gerenciadores de versão para Rust, Golang, Python, e tantas outras linguagens. O problema é que nem todas elas se comportam da mesma maneira, e inclusive com shells diferentes, como o [fish](https://fishshell.com/), é necessário usar wrappers de terceiros para que tudo funcione bem.
 
 Pois bem, desde que conheci o [asdf](https://asdf-vm.com/) (creio que a primeira vez que ouvi falar foi através do [@RaphaelDevs](https://twitter.com/RaphaelDevs)), meu setup de um novo ambiente de trabalho ficou muito mais legal de fazer. A sintaxe é muito consistente e intuitiva, e gerencia versões para muitas linguagens (eu estou usando para node, golang e rust),
 
