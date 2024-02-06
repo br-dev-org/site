@@ -18,7 +18,7 @@ Essa é a visualização padrão dos erros de TS dentro do VS Code, quando você
 
 Não é muito fácil de entender qual é o problema se não ler a mensagem completa e de forma linear. E este é apenas um exemplo simples, uma mensagem de erro maior é muito mais difícil de entender. 
 
-Agora compare com esta visualização:
+Agora, compare com esta visualização:
 
 ![](https://holocron.so/uploads/e362e886-image-\(2\).jpg.jpeg)
 
