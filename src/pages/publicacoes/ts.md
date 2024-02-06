@@ -12,7 +12,8 @@ TypeScript e VS Code é provavelmente a combinação mais utilizada para desenvo
 
 Porém nem tudo é perfeito (e no caso de JS/TS muitos dirão que há muitos defeitos), e um dos pontos que de fato podem ser bastante melhorados é a visualização de erros dentro do editor.
 
-Essa é a visualização padrão dos 
+Essa é a visualização padrão dos erros de TS dentro do VS Code, quando você passa o cursor por cima de um erro:
 
 ![](https://holocron.so/uploads/0630eb03-image-\(1\).jpg.jpeg)
 
+Não há 
