@@ -11,3 +11,6 @@ description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu pa
 TypeScript e VS Code é provavelmente a combinação mais utilizada para desenvolvimento web, e oferece muitos benefícios para quem os utiliza.
 
 Porém nem tudo é perfeito (e no caso de JS/TS muitos dirão que há muitos defeitos), e um dos pontos que de fato podem ser bastante melhorados é a visualização de erros dentro do editor.
+
+![](https://holocron.so/uploads/e4cea91a-image.png)
+
