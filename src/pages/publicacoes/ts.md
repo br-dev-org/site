@@ -16,4 +16,4 @@ Essa é a visualização padrão dos erros de TS dentro do VS Code, quando você
 
 ![](https://holocron.so/uploads/0630eb03-image-\(1\).jpg.jpeg)
 
-Não há 
+Não é muito fácil de entender qual é o problema se não ler a mensagem completa e de forma linear.
