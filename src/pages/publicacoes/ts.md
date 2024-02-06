@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: Se você trabalha com TS com certeza deveria usar esta extensão do VS Code
 date: 2024-02-06
 author: Pablo Dinella
-description: Esta extensão melhora muito a visualização de erros .
+description: Esta extensão melhora muito a visualização de erros do TypeScript dentro do VS Code.
 ---
 
 # Se você trabalha com TS com certeza deveria usar esta extensão do VS Code
