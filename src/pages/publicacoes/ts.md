@@ -24,4 +24,4 @@ Agora compare com esta visualização:
 
 Muito mais visual, não é? É fácil de identificar o tipo, o objeto, em qual contexto ele está, e qual exatamente é a propriedade que está faltando ou tem problema.
 
-Isso 
+Isso é 
