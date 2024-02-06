@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/PublicationLayout.astro
-title: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux
+title: Se você trabalha com TS com certeza deveria usar esta extensão do VS Code
 date: 2024-01-10
 author: Pablo Dinella
 description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu papel no desenvolvimento.
