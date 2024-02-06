@@ -20,3 +20,4 @@ Não é muito fácil de entender qual é o problema se não ler a mensagem compl
 
 ![](https://holocron.so/uploads/e362e886-image-\(2\).jpg.jpeg)
 
+Muito mais visual, não é? É fácil de identificar qual o tipo reque
