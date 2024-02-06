@@ -8,6 +8,6 @@ description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu pa
 
 # Se você trabalha com TS com certeza deveria usar esta extensão do VS Code
 
-TypeScript é provavelmente a linguagem mais utilizada para desenvolvimento web, e oferece muitos benefícios por conta de seu sistema de tipos.
+TypeScript e VS  é provavelmente a linguagem mais utilizada para desenvolvimento web, e oferece muitos benefícios por conta de seu sistema de tipos.
 
-Porém nem tudo é perfeito 
+Porém nem tudo é perfeito (e no caso de JS/TS muitos dirão que há muitos defeitos), 
