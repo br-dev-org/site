@@ -4,7 +4,7 @@ title: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux
 date: 2024-01-10
 author: Pablo Dinella
 description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu papel no desenvolvimento.
---- 
+---
 
 # Linus Torvalds comenta sobre o uso de Rust no Kernel Linux
 
