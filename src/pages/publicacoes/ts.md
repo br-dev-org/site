@@ -16,8 +16,12 @@ Essa é a visualização padrão dos erros de TS dentro do VS Code, quando você
 
 ![](https://holocron.so/uploads/0630eb03-image-\(1\).jpg.jpeg)
 
-Não é muito fácil de entender qual é o problema se não ler a mensagem completa e de forma linear. E este é apenas um exemplo simples, uma mensagem de erro maior ´. Agora compare com esta visualização:
+Não é muito fácil de entender qual é o problema se não ler a mensagem completa e de forma linear. E este é apenas um exemplo simples, uma mensagem de erro maior é muito mais dificil de entender. 
+
+Agora compare com esta visualização:
 
 ![](https://holocron.so/uploads/e362e886-image-\(2\).jpg.jpeg)
 
 Muito mais visual, não é? É fácil de identificar o tipo, o objeto, em qual contexto ele está, e qual exatamente é a propriedade que está faltando ou tem problema.
+
+Isso 
