@@ -4,7 +4,7 @@ title: Primeira publicação do br-dev.org
 date: 2022-11-30
 author: Pablo Dinella
 description: Bem vindo ao agregador de notícias do mundo dev!
---- 
+---
 
 # Primeira publicação do br-dev.org
 
