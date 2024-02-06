@@ -3,7 +3,7 @@ layout: ../../layouts/PublicationLayout.astro
 title: Se você trabalha com TS com certeza deveria usar esta extensão do VS Code
 date: 2024-02-06
 author: Pablo Dinella
-description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu papel no desenvolvimento.
+description: Esta extensão melhora muito a visualização de erros .
 ---
 
 # Se você trabalha com TS com certeza deveria usar esta extensão do VS Code
