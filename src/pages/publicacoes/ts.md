@@ -8,4 +8,4 @@ description: Linus Torvalds comenta sobre o uso de Rust no Kernel Linux e seu pa
 
 # Se você trabalha com TS com certeza deveria usar esta extensão do VS Code
 
-TypeScript é a linguagem 
+TypeScript é provavelmente a linguagem mais utiliza
