@@ -4,8 +4,7 @@ title: Lançada versão 3.20 do Zod, com .pipe(), .coerce() e mais
 date: 2022-12-14
 author: Pablo Dinella
 description: Nova versao do Zod traz diversas novidades e melhorias de qualidade de vida, entre elas o .pipe(), .coerce(), .datetime() e mais. Confira!
---- 
-
+---
 
 # Lançada versão 3.20 do Zod, com .pipe(), .coerce() e mais
 
@@ -21,7 +20,7 @@ Agora temos um novo método `.pipe()`, que serve para "encadear" schemas. Tipica
 z.string()
   .transform(val => val.length)
   .pipe(z.number().min(5))
-``` 
+```
 
 Neste caso, primeiro o schema validará se o valor é uma string, depois transforma para a quantidade de caracteres que tem no valor, e por último valida se essa quantidade é de no mínimo 5.
 
@@ -29,7 +28,7 @@ Em outras palavras o código acima está validando se o valor é uma string de n
 
 ## .coerce()
 
-O `.coerce()` é outro utilitário muito conveniente, que serve para converter valores de forma muito mais fácil, exemplo: 
+O `.coerce()` é outro utilitário muito conveniente, que serve para converter valores de forma muito mais fácil, exemplo:
 
 ```typescript
 const schema = z.coerce.string();
@@ -42,7 +41,7 @@ Todos os tipos primitivos são suportados: string, number, boolean, bigint, date
 
 ## .catch()
 
-Agora temos uma forma de "fallback", caso uma validação falhe. Exemplo: 
+Agora temos uma forma de "fallback", caso uma validação falhe. Exemplo:
 
 ```typescript
 const schema = z.string().catch("name");
@@ -55,7 +54,7 @@ Perceba que `4` não é uma string válida, mas o schema não lançou um erro, n
 
 ## .datetime()
 
-Agora é possível validar strings que contenham datas, exemplo: 
+Agora é possível validar strings que contenham datas, exemplo:
 
 ```typescript
 const dt = z.string().datetime();
