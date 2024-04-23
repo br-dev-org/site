@@ -4,7 +4,7 @@ title: O MIT ensina VIM em curso complementar
 date: 2023-11-21
 author: Pablo Dinella
 description: O curso "./missing-semester" do MIT ensina ferramentas essenciais para qualquer programador
---- 
+---
 
 # O MIT ensina VIM em curso complementar
 
