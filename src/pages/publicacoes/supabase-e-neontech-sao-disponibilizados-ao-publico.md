@@ -6,7 +6,7 @@ author: Pablo Dinella
 description: O Supabase e Neon oferecem soluções interessantes (equiparáveis ao firebase) para devs interessados em desenvolver e publicar um projeto pessoal ou um produto digital.
 --- 
 
-# Supabase e neon.tech são disponibilizados ao público
+# Supabase e Neon são disponibilizados ao público
 
 Semana passada dois serviços que a comunidade de desenvolvimento tem acompanhado há um tempo, o [Supabase](https://supabase.com/) e o [Neon](https://neon.tech/), foram lançados oficialmente ao público geral (<abbr title="Generally Availability">GA</abbr>).
 
